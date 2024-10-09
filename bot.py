@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 logging.basicConfig(level=logging.INFO)
 
 TOKEN = '7546434205:AAGN7aIVMB8VI63eU_udN6PMB7nLzyllluw'  # Replace with your bot's API token
-AUTH_USERS = ['5265276618']  # Replace with your user ID
+AUTH_USERS = '5265276618'  # Replace with your user ID
 CHAT_IDS = []  # List to store chat IDs
 
 async def add_group(update: Update, context: ContextTypes.DEFAULT_TYPE):
