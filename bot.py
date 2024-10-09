@@ -35,7 +35,7 @@ def broadcast_message(update, context):
         update.message.reply_text('You are not authorized to use this command.')
 
 def main():
-    updater = Updater(TOKEN, use_context=True)
+    updater = Updater(TOKEN)
 
     dp = updater.dispatcher
 
